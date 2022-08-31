@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $(dirname $0)
+
 # 设置默认分支为2020.3.33，避免很多人忘了切分支
 IL2CPP_BRANCH=$1
 

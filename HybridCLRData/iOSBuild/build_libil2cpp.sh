@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $(dirname $0)
+
 export HUATUO_IL2CPP_SOURCE_DIR=$(pushd ../LocalIl2CppData/il2cpp > /dev/null && pwd && popd > /dev/null)
 export IPHONESIMULATOR_VERSION=
 
