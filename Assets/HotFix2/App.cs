@@ -38,6 +38,7 @@ public class App
         go.AddComponent<CreateByCode>();
 
         Debug.Log("=======看到此条日志代表你成功运行了示例项目的热更新代码=======");
+        TestLitJson.Test();
         return 0;
     }
 
@@ -68,6 +69,7 @@ public class App
             "mscorlib.dll",
             "System.dll",
             "System.Core.dll", // 如果使用了Linq，需要这个
+            "LitJson.dll",
 
             //
             // 注意！修改这个列表请同步修改 BuildConfig_Custom文件中的 AOTMetaAssemblies 列表。

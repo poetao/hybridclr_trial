@@ -58,6 +58,7 @@ namespace HybridCLR.Editor
 
             string testPrefab = $"{Application.dataPath}/Prefabs/HotUpdatePrefab.prefab";
             notSceneAssets.Add(testPrefab);
+            notSceneAssets.Add($"{Application.dataPath}/gm.json");
             AssetDatabase.Refresh(ImportAssetOptions.ForceUpdate);
 
             List<AssetBundleBuild> abs = new List<AssetBundleBuild>();

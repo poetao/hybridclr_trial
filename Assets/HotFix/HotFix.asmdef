@@ -1,8 +1,8 @@
 {
     "name": "HotFix",
-    "rootNamespace": "",
     "references": [
-        "GUID:44867461c7558094cab94edbb05214d9"
+        "GUID:44867461c7558094cab94edbb05214d9",
+        "GUID:9b195208ed48b42ec9042c9ec38cfc6c"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

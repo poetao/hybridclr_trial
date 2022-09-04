@@ -1,0 +1,358 @@
+{
+    "data": [
+        {
+            "idx": 1,
+            "name": "1",
+            "value": "0",
+            "param": ""
+        },
+        {
+            "idx": 2,
+            "name": "获取全部英雄",
+            "value": "ALL_HERO",
+            "param": "可接英雄标识或英雄名字进行英雄添加"
+        },
+        {
+            "idx": 3,
+            "name": "英雄满级",
+            "value": "HERO_MAX_LV",
+            "param": ""
+        },
+        {
+            "idx": 4,
+            "name": "清空英雄",
+            "value": "CLEAN_HERO",
+            "param": ""
+        },
+        {
+            "idx": 5,
+            "name": "获取全部道具",
+            "value": "ALL_ITEM",
+            "param": ""
+        },
+        {
+            "idx": 6,
+            "name": "增加道具",
+            "value": "ADD_ITEM",
+            "param": ""
+        },
+        {
+            "idx": 7,
+            "name": "清空道具",
+            "value": "CLEAN_ITEM",
+            "param": ""
+        },
+        {
+            "idx": 8,
+            "name": "发送全部邮件",
+            "value": "ALL_MAIL",
+            "param": ""
+        },
+        {
+            "idx": 9,
+            "name": "充值",
+            "value": "RECHARGE",
+            "param": "商品ID"
+        },
+        {
+            "idx": 10,
+            "name": "跳到第几关卡",
+            "value": "BATTLE_MAINLINE",
+            "param": "关卡id"
+        },
+        {
+            "idx": 11,
+            "name": "解锁武魂",
+            "value": "UNLOCK_STRENGTH_SOUL",
+            "param": "武魂id"
+        },
+        {
+            "idx": 12,
+            "name": "提升解锁等级",
+            "value": "ROLE_LEVEL",
+            "param": "等级"
+        },
+        {
+            "idx": 13,
+            "name": "斗罗之路完成阶段任务",
+            "value": "GR_FINISH_CURR",
+            "param": ""
+        },
+        {
+            "idx": 14,
+            "name": "斗罗之路增加任务进度",
+            "value": "GR_ADD_PROGRESS",
+            "param": "增加的任务进度"
+        },
+        {
+            "idx": 15,
+            "name": "解锁所有功能",
+            "value": "OPEN_FUNCTION",
+            "param": ""
+        },
+        {
+            "idx": 16,
+            "name": "解锁高级历练",
+            "value": "ADVANCED_UNLOCK",
+            "param": ""
+        },
+        {
+            "idx": 17,
+            "name": "解锁武堂层级",
+            "value": "PASS_WUTANG",
+            "param": "武堂层级"
+        },
+        {
+            "idx": 18,
+            "name": "完成所有成就",
+            "value": "FINISH_ALL_ACHIEVEMENT",
+            "param": ""
+        },
+        {
+            "idx": 19,
+            "name": "所有装备",
+            "value": "ALL_EQUIP",
+            "param": ""
+        },
+        {
+            "idx": 20,
+            "name": "清理装备",
+            "value": "CLEAR_EQUIP",
+            "param": ""
+        },
+        {
+            "idx": 21,
+            "name": "大厅-挂机重置加速次数",
+            "value": "RESET_SPEED_TIMES",
+            "param": ""
+        },
+        {
+            "idx": 22,
+            "name": "大厅-挂机时间增加",
+            "value": "RESET_HANG_UP_TIME",
+            "param": "小时"
+        },
+        {
+            "idx": 23,
+            "name": "所有符文",
+            "value": "ALL_AMULET",
+            "param": ""
+        },
+        {
+            "idx": 24,
+            "name": "清理符文",
+            "value": "CLEAR_AMULET",
+            "param": ""
+        },
+        {
+            "idx": 25,
+            "name": "敏堂任务快进",
+            "value": "MIN_TANG_TASK_FINISH",
+            "param": "直接变成可领取状态"
+        },
+        {
+            "idx": 26,
+            "name": "重置公会捐赠次数",
+            "value": "CLEAR_DONATE_TIMES",
+            "param": ""
+        },
+        {
+            "idx": 27,
+            "name": "商品记录清除",
+            "value": "SHOP_RECORD_CLEAR",
+            "param": "商店类型"
+        },
+        {
+            "idx": 28,
+            "name": "联盟幻境下一关",
+            "value": "PASS_LEAGUE_FANTASY",
+            "param": ""
+        },
+        {
+            "idx": 29,
+            "name": "联盟挑战次数重置",
+            "value": "RESET_FANTASY_TIMES",
+            "param": ""
+        },
+        {
+            "idx": 30,
+            "name": "联盟幻境跳到指定关卡",
+            "value": "FANTASY_TO_SPECIFY",
+            "param": "指定关卡"
+        },
+        {
+            "idx": 31,
+            "name": "获得全部暗器的GM",
+            "value": "ALL_HIDDEN_WEAPON",
+            "param": ""
+        },
+        {
+            "idx": 32,
+            "name": "精英赛下一阶段",
+            "value": "ELITE_NEXT",
+            "param": ""
+        },
+        {
+            "idx": 33,
+            "name": "精英赛重开",
+            "value": "ELITE_NEW",
+            "param": ""
+        },
+        {
+            "idx": 34,
+            "name": "生成限时礼包",
+            "value": "XIAN_SHI_LI_BAO",
+            "param": "礼包ID"
+        },
+        {
+            "idx": 35,
+            "name": "购买限时礼包，需配合生成礼包一起使用",
+            "value": "XIAN_SHI_LI_BAO_BUY",
+            "param": "礼包ID"
+        },
+        {
+            "idx": 36,
+            "name": "重置行商次数",
+            "value": "RESET_TRAVEL_TIMES",
+            "param": ""
+        },
+        {
+            "idx": 37,
+            "name": "调整行商宝箱时间",
+            "value": "ADJUST_BOX_TIME",
+            "param": ""
+        },
+        {
+            "idx": 38,
+            "name": "美食屋调整成熟时间",
+            "value": "REDUCE_FOOD_TIME",
+            "param": "成熟时间在6分钟之后，状态刷新在3分钟之后"
+        },
+        {
+            "idx": 39,
+            "name": "美食屋槽位全部解锁",
+            "value": "UNLOCK_ALL_SLOT",
+            "param": ""
+        },
+        {
+            "idx": 40,
+            "name": "美食屋图鉴全部获得",
+            "value": "ACTIVATE_ALL_BOOK",
+            "param": ""
+        },
+        {
+            "idx": 41,
+            "name": "美食屋槽位状态添加",
+            "value": "RESET_SLOT_STATE",
+            "param": "1全部可调味，2全部可加火"
+        },
+        {
+            "idx": 42,
+            "name": "大厅-等级设置",
+            "value": "SET_HALL_LEVEL",
+            "param": "大厅等级"
+        },
+        {
+            "idx": 43,
+            "name": "玩家好感度设置",
+            "value": "ROLE_FAVOR_LEVEL",
+            "param": "好感度等级"
+        },
+        {
+            "idx": 44,
+            "name": "英雄好感度设置",
+            "value": "HERO_FAVOR_LEVEL",
+            "param": "参数1:英雄类型 参数2:好感度等级"
+        },
+        {
+            "idx": 45,
+            "name": "力堂等级重置",
+            "value": "RESET_LI_TANG_LEVEL",
+            "param": ""
+        },
+        {
+            "idx": 46,
+            "name": "天梯争霸下一阶段",
+            "value": "LADDER_NEXT",
+            "param": ""
+        },
+        {
+            "idx": 47,
+            "name": "增加公会资金",
+            "value": "ADD_LEAGUE_FUNDS",
+            "param": "数量"
+        },
+        {
+            "idx": 48,
+            "name": "调公会等级",
+            "value": "LEAGUE_LV",
+            "param": "等级"
+        },
+        {
+            "idx": 49,
+            "name": "结算公会远征的伤害排名",
+            "value": "LEAGUE_MATRIX_DAMAGE",
+            "param": ""
+        },
+        {
+            "idx": 50,
+            "name": "结算公会远征",
+            "value": "LEAGUE_MATRIX_SETTLE",
+            "param": ""
+        },
+        {
+            "idx": 51,
+            "name": "解锁所有公会远征副本",
+            "value": "LEAGUE_MATRIX_ALL_OPEN",
+            "param": ""
+        },
+        {
+            "idx": 52,
+            "name": "重置公会远征每日次数",
+            "value": "LEAGUE_MATRIX_DAILY",
+            "param": ""
+        },
+        {
+            "idx": 53,
+            "name": "公会远征跳到无尽",
+            "value": "LEAGUE_MATRIX_TO_INFINITE",
+            "param": ""
+        },
+        {
+            "idx": 54,
+            "name": "敏堂升级任务完成",
+            "value": "MIN_TANG_LEVEL_TASK",
+            "param": ""
+        },
+        {
+            "idx": 55,
+            "name": "冒险日志下一天",
+            "value": "MXRZ_NEXT_DAY",
+            "param": ""
+        },
+        {
+            "idx": 56,
+            "name": "冒险日志下一轮",
+            "value": "MXRZ_NEXT_ROUND",
+            "param": ""
+        },
+        {
+            "idx": 57,
+            "name": "获取全部源核",
+            "value": "ALL_CORE",
+            "param": ""
+        }
+    ],
+    
+    "index": {
+        "unique": {
+            "idx": {"1": 0,"10": 9,"11": 10,"12": 11,"13": 12,"14": 13,"15": 14,"16": 15,"17": 16,"18": 17,"19": 18,"2": 1,"20": 19,"21": 20,"22": 21,"23": 22,"24": 23,"25": 24,"26": 25,"27": 26,"28": 27,"29": 28,"3": 2,"30": 29,"31": 30,"32": 31,"33": 32,"34": 33,"35": 34,"36": 35,"37": 36,"38": 37,"39": 38,"4": 3,"40": 39,"41": 40,"42": 41,"43": 42,"44": 43,"45": 44,"46": 45,"47": 46,"48": 47,"49": 48,"5": 4,"50": 49,"51": 50,"52": 51,"53": 52,"54": 53,"55": 54,"56": 55,"57": 56,"6": 5,"7": 6,"8": 7,"9": 8}
+        },
+
+        "multiple": {
+        },
+
+        "complex": {
+        }
+    }
+}

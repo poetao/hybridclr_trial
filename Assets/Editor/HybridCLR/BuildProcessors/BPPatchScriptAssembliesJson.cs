@@ -108,7 +108,11 @@ namespace HybridCLR.Editor.BuildProcessors
              * 不在此列表中的dll在资源反序列化时无法被找到其类型
              * 因此 OnFilterAssemblies 中移除的条目需要再加回来
              */
-            string[] binFiles = Directory.GetFiles(path, BuildConfig.GlobalgamemanagersBinFile, SearchOption.AllDirectories);
+            var fileInfo = new FileInfo(path);
+            var directory = fileInfo.Exists && (fileInfo.Attributes & FileAttributes.Directory) != 0
+                ? path
+                : Path.GetDirectoryName(path);
+            string[] binFiles = Directory.GetFiles(directory, BuildConfig.GlobalgamemanagersBinFile, SearchOption.AllDirectories);
             if (binFiles.Length == 0)
             {
                 Debug.LogError($"can not find file {BuildConfig.GlobalgamemanagersBinFile}");
